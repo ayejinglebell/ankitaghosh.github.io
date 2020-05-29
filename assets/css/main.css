@@ -3891,15 +3891,6 @@ input, select, textarea {
 				box-shadow: 0 0.125em 0.125em 0 rgba(0, 0, 0, 0.125);
 			}
 
-				#titleBar .title {
-					color: #ffffff;
-					display: block;
-					font-weight: 300;
-					height: 44px;
-					line-height: 44px;
-					text-align: center;
-				}
-
 					#titleBar .title a {
 						color: inherit;
 						border: 0;
