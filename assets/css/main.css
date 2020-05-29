@@ -97,15 +97,14 @@ input, select, textarea {
 		transition: none !important;
 	}
 
-        body, input, select, textarea {	
-		color: rgba(255, 255, 255, 0.75);	
-		font-family: "Roboto", Helvetica, sans-serif;	
-		font-size: 15pt;	
-		font-weight: 100;	
-		line-height: 1.75em;	
+	body, input, select, textarea {
+		color: rgba(255, 255, 255, 0.75);
+		font-family: "Roboto", Helvetica, sans-serif;
+		font-size: 15pt;
+		font-weight: 100;
+		line-height: 1.75em;
 	}
 
-	
 	a {
 		-moz-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		-webkit-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
@@ -3892,7 +3891,19 @@ input, select, textarea {
 				box-shadow: 0 0.125em 0.125em 0 rgba(0, 0, 0, 0.125);
 			}
 
-					
+				#titleBar .title {
+					color: #272833;
+					display: block;
+					font-weight: 300;
+					height: 44px;
+					line-height: 44px;
+					text-align: center;
+				}
+
+					#titleBar .title a {
+						color: inherit;
+						border: 0;
+					}
 
 				#titleBar .toggle {
 					text-decoration: none;
